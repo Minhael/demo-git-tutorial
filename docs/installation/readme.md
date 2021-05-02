@@ -6,25 +6,25 @@ Install Git executables from [official website](https://git-scm.com/downloads).
 
 1. Configure default branch name.
     <details>
-        <summary><b>Click to view screenshots</b></summary>
-        
-        ![config-default-branch](images/01-default-branch.png)
+    <summary><b>Click to view screenshots</b></summary>
+
+    ![config-default-branch](images/01-default-branch.png)
     </details>
 
 1. Use Windows credentials for Git connections.
     <details>
-        <summary><b>Click to view screenshot.</b></summary>
+    <summary><b>Click to view screenshot.</b></summary>
 
-        ![config-ssl-credentials](images/02-ssh-credentials.png)
+    ![config-ssl-credentials](images/02-ssh-credentials.png)
     </details>
 
     > You may import your ssh key into Windows to use [SSH for Git](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh).
 
 1. Configure commit style. Choose the one decided with your team.
     <details>
-        <summary><b>Click to view screenshot.</b></summary>
+    <summary><b>Click to view screenshot.</b></summary>
 
-        ![config-style-line-break](images/03-style-line-break.png)
+    ![config-style-line-break](images/03-style-line-break.png)
     </details>
 
 1. Confirm your installed Git version.
