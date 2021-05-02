@@ -11,6 +11,7 @@ int main() {
 
     char c = "\0";
     scanf("%c", &c);
+    printf("You pressed %c\n", c);
 
     return 0;
 }
