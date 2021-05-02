@@ -5,12 +5,14 @@
 int main() {
     int rt = 0;
     
-    rt = main_hello("User");
+    rt = main_hello("my friend");
     if (rt > 0)
         return rt;
 
     char c = "\0";
-    scanf("%c", &c);
+    rt = main_read_keystroke(&c);
+    if (rt > 0)
+        return rt;
 
     return 0;
 }
@@ -20,3 +22,7 @@ int main_hello(char * name) {
     return 0;
 }
 
+int main_read_keystroke(char *c) {
+    scanf("%c", &c);
+    return 0;
+}
