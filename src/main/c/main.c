@@ -5,7 +5,7 @@
 int main() {
     int rt = 0;
     
-    rt = main_hello("my friend");
+    rt = main_hello("valued customer");
     if (rt > 0)
         return rt;
 
