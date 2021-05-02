@@ -10,9 +10,14 @@ int main() {
         return rt;
 
     char c = "\0";
+<<<<<<< HEAD
+    scanf("%c", &c);
+    printf("You pressed %c\n", c);
+=======
     rt = main_read_keystroke(&c);
     if (rt > 0)
         return rt;
+>>>>>>> main
 
     return 0;
 }
