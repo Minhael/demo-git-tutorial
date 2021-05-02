@@ -17,4 +17,12 @@ git commit --amend -m 'feat: task 1 hello world'
 git rebase --interactive main
 # Merge changes
 git merge --no-ff feature
+# Continue rebase after conflicts resolved
+git rebase --continue
+# Abort rebase
+git rebase --abort
+# Continue merge after conflicts resolved
+git merge --continue
+#abort rebase
+git merge --abort
 ```

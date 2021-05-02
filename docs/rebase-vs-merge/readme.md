@@ -12,7 +12,7 @@ Developers should be careful about the differences.
 
 # Objective
 
-This tutorial will develop 3 different branches. 1 will be merged first. 2 will be merged later after updating the latest changes. After finishing this tutorial, you will able to 
+This tutorial will create 3 different branches. 1 will be merged first. 2 will be merged later after updating the latest changes. After finishing this tutorial, you will able to 
 
 * Rebase changes onto latest source code copy.
 * Merge latest changes from other branch.
@@ -317,6 +317,8 @@ This tutorial will develop 3 different branches. 1 will be merged first. 2 will 
 `minor-a` changes were rewritten as if the development was started after `major` was merged. Previous commits are deleted. Changes are moved to the new commit. Combining with _Fast Forwarding_, merging `minor-a` into `main` create _linear history_. However, colleagues sharing the same branch are not able to merge with yours again, since it is already a different `minor-a` with different history.
 
 `minor-b` changes were merged and the commit history were preserved. However, the graph becomes complex and looks messy.
+
+# Final Result
 
 <details>
 <summary><b>Click to view screenshot.</b></summary>

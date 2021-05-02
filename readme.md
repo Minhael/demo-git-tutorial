@@ -10,5 +10,8 @@ It is assumed you have basic understanding on [version control](https://en.wikip
 * [Commit Changes](docs/commit-changes/readme.md)
 * [Resolve Conflicts](docs/resolve-conflicts/readme.md)
 * [Rebase VS Merge](docs/rebase-vs-merge/readme.md)
+* [Purging](docs/purging/readme.md)
+* [Pull Request](docs/pull-request/readme.md)
+* [Fork Repository](docs/fork-repository/readme.md)
 
 * [Cheat Sheet](cheat-sheet.md)

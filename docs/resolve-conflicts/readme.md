@@ -4,7 +4,7 @@ This page goes through the workflow to resolve conflicts when merging branches.
 
 # Objective
 
-This tutorial will parallely develop 2 feature branches and merge into `main` branch. After finish this tutorial, you will able to 
+This tutorial will parallely develop 2 feature branches and merge into `main` branch. After finishing this tutorial, you will able to 
 
 * Resolve conflicts during merge or rebase
 
