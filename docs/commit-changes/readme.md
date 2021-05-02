@@ -4,9 +4,7 @@ This page goes through the workflow to commit changes to the repository.
 
 # Objective
 
-This tutorial will finish a hello world program written in [C](https://en.wikipedia.org/wiki/C_(programming_language)).
-
-After finishing this tutorial, you will be able to 
+This tutorial will finish a hello world program written in [C](https://en.wikipedia.org/wiki/C_(programming_language)). After finishing this tutorial, you will be able to 
 
 * Clone remote repository
 * Create feature branch

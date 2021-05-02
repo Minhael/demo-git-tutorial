@@ -9,3 +9,4 @@ It is assumed you have basic understanding on [version control](https://en.wikip
 * [Cheat Sheet](cheat-sheet.md)
 * [Git Installation](docs/installation/readme.md)
 * [Commit Changes](docs/commit-changes/readme.md)
+* [Resolve Conflicts](docs/resolve-conflicts/readme.md)
