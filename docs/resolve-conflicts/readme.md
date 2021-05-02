@@ -12,6 +12,7 @@ This tutorial will parallely develop 2 feature branches and merge into `main` br
 
 1. (Optional) Reset `main` to `tutorial-resolve-conflicts` branch. Skip if you just finish [commit-changes](../commit-changes/readme.md)
     ```bash
+    git checkout main
     git reset --hard origin/tutorial-resolve-conflicts
     ```
     > **Hard Reset** will erase all your commits and changes. Ask someone unless you know what you are doing.
@@ -98,7 +99,7 @@ This tutorial will parallely develop 2 feature branches and merge into `main` br
 <details>
 <summary><b>Click to view screenshot.</b></summary>
 
-![branch-resolve-conflicts](images\01-feature-branches.png)
+![branch-resolve-conflicts](images/01-feature-branches.png)
 </details>
 
 # Resolve conflicts
@@ -118,7 +119,7 @@ This tutorial will parallely develop 2 feature branches and merge into `main` br
     <details>
     <summary><b>Click to view screenshot.</b></summary>
 
-    ![branch-merge-conflicts](images\02-merge-before-resolve.png)
+    ![branch-merge-conflicts](images/02-merge-before-resolve.png)
     </details>
 
     > Examine the file and see how Git merge the lines without conflicts.
@@ -127,14 +128,14 @@ This tutorial will parallely develop 2 feature branches and merge into `main` br
     <details>
     <summary><b>Click to view screenshot.</b></summary>
 
-    ![branch-resolve-conflicts](images\03-merge-accept-incoming.png)
+    ![branch-resolve-conflicts](images/03-merge-accept-incoming.png)
     </details>
 
 1. Click `src/test/c/main.c` under _Merge Changes_ and accept all incoming changes again.
     <details>
     <summary><b>Click to view screenshot.</b></summary>
 
-    ![branch-accept-resolution](images\04-merge-after-resolve.png)
+    ![branch-accept-resolution](images/04-merge-after-resolve.png)
     </details>
 
     > You may manually edit the file without using the function provided by VSCode.
@@ -147,6 +148,6 @@ This tutorial will parallely develop 2 feature branches and merge into `main` br
     <details>
     <summary><b>Click to view screenshot.</b></summary>
 
-    ![branch-merge-complete](images\05-merge-complete.png)
+    ![branch-merge-complete](images/05-merge-complete.png)
     </details>
     
