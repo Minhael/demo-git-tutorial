@@ -7,6 +7,6 @@ int main() {
 }
 
 int main_hello(char * name) {
-    printf("Hello %s!\n", name);
+    printf("Greetings %s! Enjoy your day here.\n", name);
     return 0;
 }
